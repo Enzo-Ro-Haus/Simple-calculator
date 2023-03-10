@@ -5,37 +5,38 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>+ Simple Calculator</title>
         <link rel="stylesheet" href="css/reset.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/style.css">
     </head>
 
     <body>
         <section class="cal">
-            <div class="cal__screen"><input type="text" name="screen"></div>
-            <div class="cal__numbers">
-                <ol>
-                    <li><button>.</button></li>
-                    <li><button>0</button></li>
-                    <li><button>1</button></li>
-                    <li><button>2</button></li>
-                    <li><button>3</button></li>
-                    <li><button>4</button></li>
-                    <li><button>5</button></li>
-                    <li><button>6</button></li>
-                    <li><button>7</button></li>
-                    <li><button>8</button></li>
-                    <li><button>9</button></li>
-                </ol>
-            </div>
+            <input id="cal__screen"type="text" name="screen">
             <div class="cal__symbols">
-                <ol>
-                    <li><button>+</button></li>
-                    <li><button>-</button></li>
-                    <li><button>x</button></li>
-                    <li><button>/</button></li>
-                    <li><button>%</button></li>
-                </ol>
+                <button class="button___symbol" type="button">-</button>
+                <button class="button___symbol" type="button">x</button>
+                <button class="button___symbol" type="button">/</button>
+                <button class="button___symbol" type="button">%</button>
+                <button class="button___symbol" type="button">+</button>
             </div>
-            <div class="cal__equals"><button>=</button></div>
+
+            <div class="cal__num">
+                <button class="button___num" type="button">.</button>
+                <button class="button___num" type="button">0</button>
+                <button class="button___num" type="button">=</button>
+                <button class="button___num" type="button">1</button>
+                <button class="button___num" type="button">2</button>
+                <button class="button___num" type="button">3</button>
+                <button class="button___num" type="button">4</button>
+                <button class="button___num" type="button">5</button>
+                <button class="button___num" type="button">6</button>
+                <button class="button___num" type="button">7</button>
+                <button class="button___num" type="button">8</button>
+                <button class="button___num" type="button">9</button>
+            </div>
+            
         </section>
     </body>
 

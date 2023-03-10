@@ -1,0 +1,82 @@
+body{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cal{
+    width: 75%;
+    height: 75%;
+    display: inherit;
+    align-items: center;
+    justify-content: center;
+    align-items: top;
+    flex-direction: column;
+    background-color: rgb(66, 66, 66);
+    border-radius: 5%;
+    box-shadow: inset -5px 0px 2px rgba(153, 153, 153, 0.6);
+}
+
+#cal__screen{
+    display: inline-flex;
+    height: 20%;
+    width: 90%;
+    background: palegoldenrod;
+    font-size: 10px;
+    color: white;
+    border-radius: 15%;
+    box-shadow: -2px 0px 2px 1px grey;
+    font-family: 'Silkscreen', cursive;
+
+}
+
+.cal__symbols{
+    display: inline-flex;
+    height: 30%;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin: 5px;
+
+}
+
+.cal__num{
+    display:inline-flex;
+    height: 30%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    padding: 10px;
+}
+
+.button___symbol{
+    height: 25%;
+    width: 10%;
+    color: #fff;
+    background-image: linear-gradient(45deg , #004691, #007bff);
+    border: 3px inset #007bff;
+
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #fff;
+}
+
+.button___num{
+    height: 25%;
+    width: 25%;
+    color: #212529;
+    background-image: linear-gradient(45deg ,#ffc107, #ffd968);
+    border: 3px inset ;
+    margin: 5px;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #fff;
+}
